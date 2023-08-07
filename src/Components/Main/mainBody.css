@@ -1,0 +1,146 @@
+.main-body{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    padding: 30px;
+   
+}
+
+.left-side-content{
+width: 45%;
+margin-right: 8%;
+}
+
+.left-side-content-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.left-side-content .span-element-1{
+    background-color: red;
+    font-size: 15px;
+    padding: 15px;
+   border-radius: 50%;
+   color: white;
+   border: 2px solid white;
+}
+
+.left-side-content .text-content-paragraph{
+    margin: 20px 0;
+    line-height: 1.6;
+    font-weight: bolder;
+    color: rgb(129, 127, 127);
+}
+
+.left-side-content .courses-service{
+    padding: 10px;
+    box-shadow: 10px 30px 40px rgb(196, 200, 201);
+    border-radius: 10px;
+}
+
+.left-side-content .tabs .active{
+    margin-right: 15px;
+    padding: 5px;
+    border-bottom: 3px solid blue;
+}
+.left-side-content .subject-where{
+    padding: 10px;
+    border: 1px solid rgb(176, 174, 174);
+    border-radius: 10px;
+    margin: 20px 0;
+   
+}
+
+.left-side-content .where-main{
+    display: flex;
+    background-color: rgb(235, 241, 245);
+}
+
+.left-side-content .where-search-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(167, 94, 94);
+    color: white;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+
+/* Right Side Content  */
+.right-side-content{
+    padding: 30px;
+  
+    border-radius: 10px;
+    box-shadow: 10px 30px 40px rgb(229, 229, 229);
+    width: 33%;
+}
+.right-side-content .empowering-education{
+    background: url(../assests/div-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+.right-side-content .empowering-education-content{
+    padding: 18px;
+}
+.right-side-content .empowering-education .empedu{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.right-side-content .total-students{
+    display: flex;
+    padding: 10px;
+    background-color:white;
+    width: 47%;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-side-content .total-students img{
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-right: 7px;
+}
+
+.right-side-content .total-students .p1{
+    font-size: 10px;
+color: rgb(105, 104, 104);
+font-weight: bold;
+}
+
+.right-side-content .total-students .p2{
+    font-size: 30px;
+color: rgb(30, 29, 29);
+font-weight: bold;
+
+}
+
+.right-side-content .total-students .arrow-dropdown{
+    margin-left: 10px;
+    font-size: large;
+}
+
+.right-side-content .ranking-report{
+    display: flex;
+}
+
+.right-side-content .ranking-report .ranking{
+    box-shadow: 10px 30px 40px rgb(196, 200, 201);
+border-radius: 10px;
+padding: 20px;
+}
+
+.right-side-content .ranking-report img{
+    width: 130px;
+    height: auto;
+    margin: 2px 16px;
+}

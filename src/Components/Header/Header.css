@@ -1,0 +1,42 @@
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+.page-logo-image img{
+   
+    height: 40px;
+}
+.page-logo-text{   
+   font-size: smaller;
+   padding-top: 6px;
+}
+
+
+.navigation ul{
+    display: flex;
+}
+
+.navigation ul li{
+    padding: 0 20px;
+}
+
+.icons-nav{
+    display: flex;
+}
+
+.icons-nav .icon-1, .icons-nav .icon-2{
+margin: 0 10px;
+padding: 3px;
+border: 1px solid black;
+border-radius: 8px;
+}
+
+
+
