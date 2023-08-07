@@ -4,6 +4,10 @@ import { BiSearch } from 'react-icons/bi'
 import { IoIosArrowDropdown } from 'react-icons/io'
 import imageemp from './assests/image-empowerment.png'
 import top10 from './assests/10ranking.png'
+import total from './assests/total-students.png'
+import topper from './assests/topper-students.png'
+import contri from './assests/contributor.png'
+
 
 export const MainBody = () => {
     return (
@@ -61,41 +65,42 @@ export const MainBody = () => {
                 <div className="ranking-report">
 
                     <div className="ranking">
-                        <p>World Top 10 University</p>
+                        <p className="title">World Top 10 University</p>
 
-                        <div><img src={top10} alt="" /></div>
+                        <div className="borderdesign"><img src={top10} alt="" /></div>
 
-                        <div>
-                            <div>
-                                <span></span> Graphic Template
+                        <div className="element">
+                            <div className="">
+                            <p><span className="pink"></span> Graphic Template</p>
                             </div>
+
                             <div>
-                                <span></span> UI Design
+                            <p><span className="yellow"></span> UI Design </p>
                             </div>
                         </div>
                     </div>
 
-                    <div>
-                        <p>Earning Report</p>
-                        <div>
-                            <img src="" alt="" />
-                            <div>
-                                <p>Total Students</p>
-                                <p>78k</p>
+                    <div className="report">
+                        <p className="title">Earning Report</p>
+                        <div className="report-items">
+                            <img src={total} alt="" />
+                            <div className="items-text">
+                                <p className="p1">Total Students</p>
+                                <p className="p2">78k</p>
                             </div>
                         </div>
-                        <div>
-                            <img src="" alt="" />
+                        <div className="report-items" >
+                            <img src={topper} alt="" />
                             <div>
-                                <p>Total Students</p>
-                                <p>78k</p>
+                                <p className="p1">Bd Topper Students</p>
+                                <p className="p2">8k</p>
                             </div>
                         </div>
-                        <div>
-                            <img src="" alt="" />
+                        <div className="report-items">
+                            <img src={contri} alt="" />
                             <div>
-                                <p>Total Students</p>
-                                <p>78k</p>
+                                <p className="p1">Contributor Bobus</p>
+                                <p className="p2">706</p>
                             </div>
                         </div>
                     </div>

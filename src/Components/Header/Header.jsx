@@ -1,10 +1,9 @@
-import React from 'react'
 import './Header.css'
 import { GrDirections } from 'react-icons/gr';
 import { TbMenu2 } from 'react-icons/tb';
 import { PiAirplaneLight } from 'react-icons/pi';
 import logo from './assests/logoSkillTank.png'
-
+import React from 'react';
 
 export const Header = () => {
     return (
@@ -33,7 +32,7 @@ export const Header = () => {
                     <div className="icon-1"><GrDirections /></div>
                     <div className='icon-2'><PiAirplaneLight /></div>
                 </div>
-                <div className="menu-hb"> <button><TbMenu2 /></button> </div>
+                <div className="menu-hb"> <button><TbMenu2 /> </button> </div>
             </div>
         </header>
     )
