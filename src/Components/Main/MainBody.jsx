@@ -9,7 +9,7 @@ import topper from './assests/topper-students.png'
 import contri from './assests/contributor.png'
 
 
-export const MainBody = () => {
+function MainBody() {
     return (
         <div className="main-body">
             <div className="left-side-content">
@@ -112,3 +112,5 @@ export const MainBody = () => {
         </div>
     )
 }
+
+export default MainBody;

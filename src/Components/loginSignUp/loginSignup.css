@@ -1,0 +1,85 @@
+
+
+.container{
+    width: 100%;
+   height: 100vh;
+    background-image: linear-gradient(to right, rgb(210, 17, 194), rgb(247, 15, 111));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+
+  
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.login-title{
+    color: black;
+    font-size: 35px;
+}
+
+.loginSignupbtn{
+    display: flex;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.loginSignupbtn button{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.loginSignupbtn .btn1{
+    background-image: linear-gradient(to right, rgb(210, 17, 194), rgb(247, 15, 111));
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.loginSignupbtn .btn2{
+  
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.input-area{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.forgetpass{
+    color: rgb(212, 33, 183) ;
+    text-align: left;
+    cursor: pointer;
+    margin-top: -12px;
+}
+
+.submit{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(210, 17, 194), rgb(247, 15, 111));
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.signup{
+    color: rgb(203, 9, 196);
+}
+

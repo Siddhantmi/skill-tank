@@ -5,7 +5,7 @@ import { PiAirplaneLight } from 'react-icons/pi';
 import logo from './assests/logoSkillTank.png'
 import React from 'react';
 
-export const Header = () => {
+function Header(){
     return (
         <header className="navbar">
             <div className="nav-items">
@@ -37,3 +37,6 @@ export const Header = () => {
         </header>
     )
 }
+
+
+export default Header;
